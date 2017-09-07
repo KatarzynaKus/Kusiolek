@@ -1,0 +1,83 @@
+\documentclass[
+  polish,
+  pagemark,
+  stamp]{sdapsclassic}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{pgfkeys}
+
+% To jest plik ze zmiennymi. Używamy ich zamiast tekstu.
+\input{../variables}
+
+% Tutaj redefiniuję komendę do wywoływania zmiennych, aby łatwiej było ją wpisywać.
+\newcommand{\gv}{\pgfkeysvalueof}
+
+% Autorzy ankiety
+\author{\gv{survey_authors}}
+% Tytuł ankiety
+\title{\gv{survey_title}}
+
+\begin{document}
+% Cała ankieta musi znaleźć się w środowisku `questionnaire`
+  \begin{questionnaire}
+% To jest komenda dodająca informacje o ankiecie na górze pierwszej strony.
+    \begin{info}
+						\gv{survey_info}
+    \end{info}
+
+    \addinfo{Date}{10.03.2013}
+
+		\section{\gv{demography_section}}% Tak dodajemy nagłówki sekcji
+
+		\textbox*{1.2cm}{\gv{main_field_q}}% Tak dodajemy pytania otwarte
+
+		\textbox*{1.2cm}{\gv{birth_year_q}}
+
+		\begin{choicequestion}[cols=2]{\gv{gender_q}}% Tak dodajemy pytania zamknięte
+						\choiceitem{\gv{female}}
+						\choiceitem{\gv{male}}
+						\choiceitem{\gv{other}}
+						\choiceitem{\gv{refuse}}
+    \end{choicequestion}
+
+
+		\begin{choicequestion}[cols=2]{\gv{philosophy_hs_q}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+    \end{choicequestion}
+
+		\begin{choicequestion}[cols=2]{\gv{olympiad_q}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+    \end{choicequestion}
+
+		\textbox*{1.2cm}{\gv{philosophy_start_year_q}}
+
+
+		\begin{choicequestion}[cols=2]{\gv{other_fields_q}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+
+
+			\choiceitemtext{1.2cm}{2}{a.}
+			\choiceitemtext{1.2cm}{2}{b.}
+			\choiceitemtext{1.2cm}{2}{c.}
+    \end{choicequestion}
+
+
+		\newpage
+
+		\section{\gv{story_1_section}}
+
+    \gv{story_1_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{story_1_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+  \end{questionnaire}
+\end{document}
+
