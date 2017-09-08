@@ -1,6 +1,11 @@
 % W tym pliku znajdują się zmienne, których będziemy używać w ankiecie.
 % Są wyrzucone do osobnego pliku z szablonu ankiety.
 
+% Zmienne definiujemy za pomocą:
+%\pgfkeyssetvalue{nazwa_zmiennej}{tekst}
+% W pliku `questionnaire.tex` odwołujemy się do nich przez:
+%\gv{nazwa_zmiennej}
+
 
 % Ogólne elementy tekstowe ankiety
 
@@ -17,31 +22,31 @@ Tutaj znajdą się informacje o badaniu i inne informacje niezbędne respondento
 }
 
 % Elementy konstrukcyjne pytań
-\pgfkeyssetvalue{yes_a}{
+\pgfkeyssetvalue{yes_a}{ % Odpowiedź "Tak"
 Tak
 }
 
-\pgfkeyssetvalue{no_a}{
+\pgfkeyssetvalue{no_a}{ % Odpowiedź "Nie"
 Nie
 }
 
-\pgfkeyssetvalue{left_anchor}{
+\pgfkeyssetvalue{left_anchor}{ % Lewa strona dyferencjału semantycznego
 słabo
 }
 
-\pgfkeyssetvalue{right_anchor}{
+\pgfkeyssetvalue{right_anchor}{ % Prawa strona dyferencjału semantycznego
 mocno
 }
 
-\pgfkeyssetvalue{yesno_question}{
+\pgfkeyssetvalue{yesno_question}{ % Formuła pytania rozstrzygnięcia
 Czy zgadzasz się ze stwierdzeniem
 }
 
-\pgfkeyssetvalue{level_question}{
+\pgfkeyssetvalue{level_question}{ % Formuła pytania o siłę przekonania
 Jak bardzo jesteś pewny swojej odpowiedzi?
 }
 
-\pgfkeyssetvalue{male}{
+\pgfkeyssetvalue{male}{ 
 Mężczyzna
 }
 
