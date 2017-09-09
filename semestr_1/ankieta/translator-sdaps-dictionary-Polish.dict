@@ -14,7 +14,7 @@
 
 \ProvidesDictionary{translator-sdaps-dictionary}{English}
 
-\providetranslation{infotext}{Ten kwestionariusz jest czytany automatycznie przez program komputerowy. Prosimy użyć dlugopisu do wypełnienia.}
+\providetranslation{infotext}{Ten kwestionariusz jest czytany automatycznie przez program komputerowy. Prosimy użyć dlugopisu do wypełnienia. W pytaniach otwartych prosimy pisać drukowanymi literami.}
 \providetranslation{standard-deviation}{Odchylenie standardowe}
 \providetranslation{info-cross}{Wzór zaznaczenia}
 \providetranslation{info-correct}{Usunięcia zaznaczenia}
@@ -23,5 +23,5 @@
 \providetranslation{surveyid}{ID ankiety}
 \providetranslation{draft}{szkic}
 \providetranslation{info-select}{Prosimy o zaznaczenie jednej odpowiedzi, chyba że pytanie mówi co innego.}
-\providetranslation{info-mark}{W pytaniach na skali (1--\arabic{markcheckboxcount}) zaznacz tę odpowiedź, która pasuje najlepiej}
+\providetranslation{info-mark}{W pytaniach na skali (1--\arabic{markcheckboxcount}) zaznacz tę odpowiedź, która pasuje najlepiej.}
 \providetranslation{mean}{Średnia}
