@@ -14,14 +14,14 @@
 
 \ProvidesDictionary{translator-sdaps-dictionary}{English}
 
-\providetranslation{infotext}{Ten kwestionariusz jest czytany automatycznie przez program komputerowy. Proszę użyć dlugopisu do wypełnienia.}
+\providetranslation{infotext}{Ten kwestionariusz jest czytany automatycznie przez program komputerowy. Prosimy użyć dlugopisu do wypełnienia.}
 \providetranslation{standard-deviation}{Odchylenie standardowe}
-\providetranslation{info-cross}{Zaznaczenie}
-\providetranslation{info-correct}{Usunięcie zaznaczenia}
+\providetranslation{info-cross}{Wzór zaznaczenia}
+\providetranslation{info-correct}{Usunięcia zaznaczenia}
 \providetranslation{answers}{Odpowiedzi}
 \providetranslation{questionnaireid}{ID kwestionariusza}
 \providetranslation{surveyid}{ID ankiety}
 \providetranslation{draft}{szkic}
-\providetranslation{info-select}{Możesz zaznaczyć dowolną liczbę odpowiedzi}
+\providetranslation{info-select}{Prosimy o zaznaczenie jednej odpowiedzi, chyba że pytanie mówi co innego.}
 \providetranslation{info-mark}{W pytaniach na skali (1--\arabic{markcheckboxcount}) zaznacz tę odpowiedź, która pasuje najlepiej}
 \providetranslation{mean}{Średnia}

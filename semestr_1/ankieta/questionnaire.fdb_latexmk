@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1504971528 "questionnaire.tex" "questionnaire.pdf" "questionnaire" 1504971528
+["pdflatex"] 1504972108 "questionnaire.tex" "questionnaire.pdf" "questionnaire" 1504972109
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1501615451 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1501615455 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1501615458 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -180,8 +180,8 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1504552748 336679 14e8c2953608b1db5a52097a68c54af2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1501676793 7735971 718748f8e9a30689a9decd193aa43f4f ""
   "code128.tex" 1504969348 17770 cfc04aa0cf5353c390055645d258dd86 ""
-  "questionnaire.aux" 1504971528 4946 6f379cae75abaa45e2028696ce4ead05 ""
-  "questionnaire.out" 1504971528 1220 90ad75e6687d3c6b48c4b2fd245f53bd ""
+  "questionnaire.aux" 1504972109 5216 d4127a4ebe9ff1b0470a01430dd54b03 ""
+  "questionnaire.out" 1504972109 1378 3e98b4f10416d8fa22ae0d307fbfdf45 ""
   "questionnaire.tex" 1504971527 2728 47a4b9c1b7b9d38ec5dfc43e3a6cd553 ""
   "sdaps.opt" 1504969348 753 f85ab11d5ef0211800f44f6dc14872c0 ""
   "sdapsarray.sty" 1504969348 34149 1d6dbba95622ae310296e676e338dab7 ""
@@ -189,11 +189,11 @@
   "sdapsclassic.cls" 1504969348 27454 79dd11e28ade9eb61e049558a0034c4e ""
   "sdapslayout.sty" 1504969348 18172 f1bac06a4d835b5a538ca1a7352cf47b ""
   "translator-sdaps-dictionary-English.dict" 1504969348 1340 20747e2853cbffe11de09d5d0cd3a221 ""
-  "translator-sdaps-dictionary-Polish.dict" 1504969348 1366 e45dd6d56b53db78993c0c2edced8765 ""
-  "variables.tex" 1504971503 3062 1307cfd4f8cbad1dfe6a514a794f522b ""
+  "translator-sdaps-dictionary-Polish.dict" 1504972106 1401 78518e9eb8cd084157239a33084fedf9 ""
+  "variables.tex" 1504971908 3225 1aadbcfeb77450a0a74f7a1540fa0df3 ""
   (generated)
-  "questionnaire.pdf"
-  "questionnaire.aux"
-  "questionnaire.out"
-  "questionnaire.log"
   "questionnaire.sdaps"
+  "questionnaire.pdf"
+  "questionnaire.log"
+  "questionnaire.out"
+  "questionnaire.aux"
