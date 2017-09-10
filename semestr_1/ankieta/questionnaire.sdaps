@@ -1,7 +1,7 @@
 Author=\gv {survey_authors}
 Title=\gv {survey_title}
-Duplex=true
-PrintQuestionnaireId=0
+Duplex=false
+PrintQuestionnaireId=1
 PageSize=597.50793pt,845.04694pt
 Style=qr
 CheckMode=checkcorrect
