@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1505331167 "questionnaire.tex" "questionnaire.pdf" "questionnaire" 1505331167
+["pdflatex"] 1505333582 "questionnaire.tex" "questionnaire.pdf" "questionnaire" 1505333582
   "/etc/texmf/web2c/texmf.cnf" 1492171032 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbl1000.657pk" 1505303353 35236 2f1f247969d3a0dbaab5e0ab7d9f699e ""
   "/home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.657pk" 1505303348 28780 6b3ef5282f307f2044069c9c0993c3a7 ""
@@ -194,12 +194,12 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1492172220 772891 de7fc6fd7d87eafaff95535a23e167bc ""
   "code128.tex" 1504878290 17770 cfc04aa0cf5353c390055645d258dd86 ""
   "kognilablogo.png" 1505303623 4556 4989424e71ef43c6b190fc3b5229a1f0 ""
-  "questionnaire.aux" 1505331165 6702 f2538100cbfe39b46c1adc2e41cb6364 ""
-  "questionnaire.out" 1505331165 1642 1dec82724ba9520d23cc870408df0bef ""
-  "questionnaire.tex" 1505331162 3371 fd8d979fe848e6b7a413b8119fcd18f3 ""
-  "questionnaire.xwm" 1505331165 68 e4df365b76f0b8d3a2a5f95b5fd74c5a ""
-  "scenarios/experience_machine.tex" 1505329172 1524 93bbf6a2b7eec3b3f805688d9687cdd3 ""
-  "scenarios/gettier.tex" 1505328644 481 e3ea053f20934ceecb8ba309c2c14f22 ""
+  "questionnaire.aux" 1505331169 6702 f2538100cbfe39b46c1adc2e41cb6364 ""
+  "questionnaire.out" 1505331169 1642 1dec82724ba9520d23cc870408df0bef ""
+  "questionnaire.tex" 1505333578 3476 5a85afc52a32df15be043b37a11f1992 ""
+  "questionnaire.xwm" 1505331169 68 e4df365b76f0b8d3a2a5f95b5fd74c5a ""
+  "scenarios/experience_machine.tex" 1505333549 1579 a00dfcbe7f5a6a2cbab749f0f15fde71 ""
+  "scenarios/gettier.tex" 1505333462 481 19ba6a635091d68e678746e4d6f5ffe1 ""
   "sdaps.opt" 1504878294 753 f85ab11d5ef0211800f44f6dc14872c0 ""
   "sdapsarray.sty" 1504878290 34149 1d6dbba95622ae310296e676e338dab7 ""
   "sdapsbase.sty" 1504878290 48954 b5f30315173cf874c67fcc039e1c6048 ""
@@ -209,9 +209,9 @@
   "translator-sdaps-dictionary-Polish.dict" 1505048509 1461 db45c61a7daea73271966a1d9d7874d2 ""
   "variables.tex" 1505331092 3302 af7fa7c9a5c243909755c16d2b99c8da ""
   (generated)
-  "questionnaire.pdf"
   "questionnaire.out"
-  "questionnaire.sdaps"
-  "questionnaire.aux"
   "questionnaire.log"
   "questionnaire.xwm"
+  "questionnaire.pdf"
+  "questionnaire.sdaps"
+  "questionnaire.aux"
