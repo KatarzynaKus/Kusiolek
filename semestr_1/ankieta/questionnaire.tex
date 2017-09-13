@@ -101,6 +101,8 @@
 
 		\newpage
 
+	%	\begin{multicols*}{2} %Można zobaczyć jak wygląda w dwóch kolumnach
+
 		\section{\gv{story_1_section}}
 
     \gv{story_1_text}
@@ -112,6 +114,19 @@
 
 		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
 
+
+		\section{\gv{story_2_section}}
+
+		\gv{story_2_text}
+
+		\begin{choicequestion}[cols=2]{\gv{story_2_q1}}
+						\choiceitem{\gv{story_2_q1a1}}					
+						\choiceitem{\gv{story_2_q1a2}}					
+    \end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+		% \end{multicols*}
   \end{questionnaire}
 \end{document}
 

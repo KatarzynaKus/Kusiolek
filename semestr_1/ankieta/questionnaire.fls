@@ -271,6 +271,10 @@ INPUT questionnaire.xwm
 OUTPUT questionnaire.xwm
 INPUT variables.tex
 INPUT variables.tex
+INPUT scenarios/gettier.tex
+INPUT scenarios/gettier.tex
+INPUT scenarios/experience_machine.tex
+INPUT scenarios/experience_machine.tex
 INPUT questionnaire.aux
 INPUT questionnaire.aux
 OUTPUT questionnaire.aux

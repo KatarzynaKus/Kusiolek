@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.14)  13 SEP 2017 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.14)  13 SEP 2017 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,7 +1286,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
  (./questionnaire.xwm)
 \openout5 = `questionnaire.xwm'.
 
-) (./variables.tex)
+) (./variables.tex (./scenarios/gettier.tex) (./scenarios/experience_machine.tex))
 
 LaTeX Warning: Unused global option(s):
     [pagemark,stamp].
@@ -1492,7 +1492,7 @@ Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
 <QR code requested for "33128309970001" in version 2-H.>
 <Copying the QR code for "33128309970001" in version 2-H as previously calculated.>
-<kognilablogo.png, id=59, 18.0675pt x 18.3084pt>
+<kognilablogo.png, id=71, 18.0675pt x 18.3084pt>
 File: kognilablogo.png Graphic file (type png)
  <use kognilablogo.png>
 Package pdftex.def Info: kognilablogo.png used on input line 102.
@@ -1503,23 +1503,39 @@ Package pdftex.def Info: kognilablogo.png used on input line 102.
  <./kognilablogo.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 108.
+(hyperref)                removing `\unhcopy' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 108.
+(hyperref)                removing `\strutbox' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 108.
+(hyperref)                removing `\\' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 113.
+(hyperref)                removing `\unhcopy' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 113.
+(hyperref)                removing `\strutbox' on input line 115.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 122.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 122.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 127.
 
 
 AED: lastpage setting LastPage
@@ -1531,30 +1547,30 @@ Overfull \vbox (10.2pt too high) has occurred while \output is active []
 <QR code requested for "33128309970002" in version 2-H.>
 <Copying the QR code for "33128309970002" in version 2-H as previously calculated.>
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 131.
  (./questionnaire.xwm) (./questionnaire.aux <Reading QR code for "33128309970001" at level 2-H from aux file.>
 <Reading QR code for "33128309970002" at level 2-H from aux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `questionnaire.out' has not changed.
-(rerunfilecheck)             Checksum: 3E98B4F10416D8FA22AE0D307FBFDF45;1378.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
+(rerunfilecheck)             Checksum: 1DEC82724BA9520D23CC870408DF0BEF;1642.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 34110 strings out of 494910
- 650624 string characters out of 6180156
- 838187 words of memory out of 5000000
- 36921 multiletter control sequences out of 15000+600000
+ 34136 strings out of 494910
+ 651152 string characters out of 6180156
+ 839977 words of memory out of 5000000
+ 36937 multiletter control sequences out of 15000+600000
  18454 words of font info for 54 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  69i,15n,73p,10391b,1253s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbl1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1000.657pk>
-Output written on questionnaire.pdf (2 pages, 65006 bytes).
+Output written on questionnaire.pdf (2 pages, 74909 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
