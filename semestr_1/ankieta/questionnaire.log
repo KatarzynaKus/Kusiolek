@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.14)  13 SEP 2017 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.14)  17 SEP 2017 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,32 +1286,35 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
  (./questionnaire.xwm)
 \openout5 = `questionnaire.xwm'.
 
-) (./variables.tex (./scenarios/gettier.tex) (./scenarios/experience_machine.tex))
+) (./variables.tex (./scenarios/barns.tex) (./scenarios/experience_machine.tex) (./scenarios/frank_and_furt.tex) (./scenarios/gettier.tex) (./scenarios/incompleteness_theorem.tex) (./scenarios/john-thermometer.tex) (./scenarios/name-day.tex) (./scenarios/planet_b297a.tex) (./scenarios/teleportation.tex) (./scenarios/violinist.tex))
 
 LaTeX Warning: Unused global option(s):
     [pagemark,stamp].
 
 (./questionnaire.aux <Reading QR code for "33128309970001" at level 2-H from aux file.>
 <Reading QR code for "33128309970002" at level 2-H from aux file.>
+<Reading QR code for "33128309970003" at level 2-H from aux file.>
+<Reading QR code for "33128309970004" at level 2-H from aux file.>
+<Reading QR code for "33128309970005" at level 2-H from aux file.>
 )
 \openout1 = `questionnaire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count273
@@ -1373,8 +1376,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 29.
-Package hyperref Info: Link coloring OFF on input line 29.
+(lastpage)             ! on input line 32.
+Package hyperref Info: Link coloring OFF on input line 32.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1382,9 +1385,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count279
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
  (./questionnaire.out) (./questionnaire.out)
 \@outlinefile=\write6
 \openout6 = `questionnaire.out'.
@@ -1396,27 +1399,19 @@ Dictionary: translator-sdaps-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 43.
+(hyperref)                removing `\unhcopy' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 43.
+(hyperref)                removing `\strutbox' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 45.
+(hyperref)                removing `\unhcopy' on input line 48.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 47.
+(hyperref)                removing `\strutbox' on input line 48.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1427,38 +1422,33 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\strutbox' on input line 50.
 
 
-Overfull \hbox (3.3849pt too wide) in paragraph at lines 58--58
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 53.
+
+
+Overfull \hbox (3.3849pt too wide) in paragraph at lines 61--61
 []|\T1/cmr/m/n/10.95 Czy w szkole ±red-niej uczest-ni-czy-ªe±/uczestniczyªa±
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 58.
+(hyperref)                removing `\unhcopy' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 58.
+(hyperref)                removing `\strutbox' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 63.
+(hyperref)                removing `\unhcopy' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 63.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 68.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 68.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]|\T1/cmr/m/n/10.95 Czy w ubie-gªych la-tach po-dej-mo-wa-
- []
+(hyperref)                removing `\strutbox' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1469,19 +1459,32 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\strutbox' on input line 71.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 71.
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\T1/cmr/m/n/10.95 Czy w ubie-gªych la-tach po-dej-mo-wa-
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 81.
+(hyperref)                removing `\unhcopy' on input line 74.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 81.
+(hyperref)                removing `\strutbox' on input line 74.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 74.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 84.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 84.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 
  []
 
@@ -1492,10 +1495,10 @@ Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
 <QR code requested for "33128309970001" in version 2-H.>
 <Copying the QR code for "33128309970001" in version 2-H as previously calculated.>
-<kognilablogo.png, id=71, 18.0675pt x 18.3084pt>
+<kognilablogo.png, id=175, 18.0675pt x 18.3084pt>
 File: kognilablogo.png Graphic file (type png)
  <use kognilablogo.png>
-Package pdftex.def Info: kognilablogo.png used on input line 102.
+Package pdftex.def Info: kognilablogo.png used on input line 105.
 (pdftex.def)             Requested size: 250.9375pt x 250.9375pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1503,42 +1506,64 @@ Package pdftex.def Info: kognilablogo.png used on input line 102.
  <./kognilablogo.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 110.
+(hyperref)                removing `\unhcopy' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 110.
+(hyperref)                removing `\strutbox' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 110.
+(hyperref)                removing `\\' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 115.
+(hyperref)                removing `\unhcopy' on input line 118.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 115.
+(hyperref)                removing `\strutbox' on input line 118.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 122.
+(hyperref)                removing `\unhcopy' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 122.
+(hyperref)                removing `\strutbox' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unhcopy' on input line 127.
+(hyperref)                removing `\\' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\strutbox' on input line 127.
+(hyperref)                removing `\unhcopy' on input line 129.
 
 
-AED: lastpage setting LastPage
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 140.
+
 
 Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
@@ -1547,30 +1572,211 @@ Overfull \vbox (10.2pt too high) has occurred while \output is active []
 <QR code requested for "33128309970002" in version 2-H.>
 <Copying the QR code for "33128309970002" in version 2-H as previously calculated.>
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 131.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 148.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 148.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 173.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 173.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 173.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 178.
+
+
+Overfull \vbox (10.2pt too high) has occurred while \output is active []
+
+ 
+
+<QR code requested for "33128309970003" in version 2-H.>
+<Copying the QR code for "33128309970003" in version 2-H as previously calculated.>
+[3]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 184.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 184.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 196.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 196.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 196.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 204.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 204.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 204.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 209.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 209.
+
+
+Overfull \vbox (10.2pt too high) has occurred while \output is active []
+
+ 
+
+<QR code requested for "33128309970004" in version 2-H.>
+<Copying the QR code for "33128309970004" in version 2-H as previously calculated.>
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\unhcopy' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\strutbox' on input line 234.
+
+
+AED: lastpage setting LastPage
+
+Overfull \vbox (10.2pt too high) has occurred while \output is active []
+
+ 
+
+<QR code requested for "33128309970005" in version 2-H.>
+<Copying the QR code for "33128309970005" in version 2-H as previously calculated.>
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 238.
  (./questionnaire.xwm) (./questionnaire.aux <Reading QR code for "33128309970001" at level 2-H from aux file.>
 <Reading QR code for "33128309970002" at level 2-H from aux file.>
+<Reading QR code for "33128309970003" at level 2-H from aux file.>
+<Reading QR code for "33128309970004" at level 2-H from aux file.>
+<Reading QR code for "33128309970005" at level 2-H from aux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `questionnaire.out' has not changed.
-(rerunfilecheck)             Checksum: 1DEC82724BA9520D23CC870408DF0BEF;1642.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+(rerunfilecheck)             Checksum: FD792701F1DEFE8208C10074E03AF0D0;4106.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 34136 strings out of 494910
- 651207 string characters out of 6180156
- 839976 words of memory out of 5000000
- 36937 multiletter control sequences out of 15000+600000
+ 34299 strings out of 494910
+ 654585 string characters out of 6180156
+ 848722 words of memory out of 5000000
+ 37047 multiletter control sequences out of 15000+600000
  18454 words of font info for 54 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 69i,15n,73p,10391b,1253s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,73p,10391b,1270s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbl1000.657pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1000.657pk>
-Output written on questionnaire.pdf (2 pages, 74901 bytes).
+Output written on questionnaire.pdf (5 pages, 104804 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 

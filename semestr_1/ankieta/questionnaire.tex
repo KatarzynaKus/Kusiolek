@@ -11,12 +11,15 @@
 
 % Logo
 
-\newwatermark[firstpage,picfile = {kognilablogo},picfileext=png, picscale=2.5, picypos = 164, picxpos = -50]{}
+\newwatermark[firstpage,picfile = {kognilablogo},picfileext=png, picscale=2.5,
+picypos = 164, picxpos = -50]{}
 
 % To jest plik ze zmiennymi. Używamy ich zamiast tekstu.
 \input{variables}
 
 % Tutaj redefiniuję komendę do wywoływania zmiennych, aby łatwiej było ją wpisywać.
+
+
 % Od tej pory aby użyć wartości zmiennej można posługiwać się poleceniem \gv{nazwa_zmiennej}
 \newcommand{\gv}{\pgfkeysvalueof}
 
@@ -114,7 +117,111 @@
 
 		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
 
+		\section{\gv{barns_section}}
 
+    \gv{barns_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{barns_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}			
+		
+		\section{\gv{john-thermometer_section}}
+
+    \gv{john-thermometer_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{john-thermometer_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}		
+		
+	\newpage
+	
+		\section{\gv{teleportation_section}}
+
+		\gv{teleportation_text}
+
+		\begin{choicequestion}[cols=2]{\gv{teleportation_q1}}
+						\choiceitem{\gv{teleportation_q1a1}}				
+						\choiceitem{\gv{teleportation_q1a2}}
+						\choiceitem{\gv{teleportation_q1a3}}
+						\choiceitem{\gv{teleportation_q1a4}}
+										
+    \end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\section{\gv{name-day_section}}
+
+    \gv{name-day_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{name-day_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\section{\gv{planet_b297a_section}}
+
+    \gv{planet_b297a_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{planet_b297a_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\section{\gv{incompleteness_theorem_section}}
+
+		\gv{incompleteness_theorem_text}
+
+		\begin{choicequestion}[cols=2]{\gv{incompleteness_theorem_q1}}
+						\choiceitem{\gv{incompleteness_theorem_q1a1}}					
+						\choiceitem{\gv{incompleteness_theorem_q1a2}}					
+    \end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+	
+		\section{\gv{frank_and_furt_section}}
+
+    \gv{frank_and_furt_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{frank_and_furt_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{frank_and_furt_q2}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{frank_and_furt_q3}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\newpage
+		
+		\section{\gv{violinist_section}}
+
+    \gv{violinist_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{violinist_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+		
 		\section{\gv{experience_machine_section}}
 
 		\gv{experience_machine_text}
