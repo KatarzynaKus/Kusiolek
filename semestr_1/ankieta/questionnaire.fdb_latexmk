@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1505672423 "questionnaire.tex" "questionnaire.pdf" "questionnaire" 1505672423
+["pdflatex"] 1505681473 "questionnaire.tex" "questionnaire.pdf" "questionnaire" 1505681473
   "/etc/texmf/web2c/texmf.cnf" 1492171032 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbl1000.657pk" 1505303353 35236 2f1f247969d3a0dbaab5e0ab7d9f699e ""
   "/home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.657pk" 1505303348 28780 6b3ef5282f307f2044069c9c0993c3a7 ""
@@ -177,6 +177,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty" 1393459310 348 8927fde343487e003b01a4c2ca34073b ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1203727794 274 4cad6e665cc93ac2ac979039a94fa1e1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1203877327 325 2bcd023400636339210573e2b3ee298b ""
+  "/usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty" 1205193520 12904 8a8947995cf513f3b75715438c6617ee ""
   "/usr/share/texlive/texmf-dist/tex/latex/qrcode/qrcode.sty" 1421364289 97259 c0b10c086d1f3ce9a4d6f360d059d5ec ""
   "/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty" 1137110779 22423 d476012cd03f82f9475ad54ba6cd3267 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty" 1485129666 12396 d41f82b039f900e95f351e54ae740f31 ""
@@ -194,10 +195,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1492172220 772891 de7fc6fd7d87eafaff95535a23e167bc ""
   "code128.tex" 1504878290 17770 cfc04aa0cf5353c390055645d258dd86 ""
   "kognilablogo.png" 1505303623 4556 4989424e71ef43c6b190fc3b5229a1f0 ""
-  "questionnaire.aux" 1505672413 13546 a58b54c95ac036a7dc201562aa9919ac ""
-  "questionnaire.out" 1505672413 4106 fd792701f1defe8208c10074e03af0d0 ""
-  "questionnaire.tex" 1505672284 6477 9a27d9210d0452d4d7ad931a491b6af5 ""
-  "questionnaire.xwm" 1505672413 69 6af3b66abca01735c6c7f5440232faf3 ""
+  "questionnaire.aux" 1505672427 13546 a58b54c95ac036a7dc201562aa9919ac ""
+  "questionnaire.out" 1505672427 4106 fd792701f1defe8208c10074e03af0d0 ""
+  "questionnaire.tex" 1505681472 6497 8e5fcb876a9fcf1c686071490247dc3e ""
+  "questionnaire.xwm" 1505672427 69 6af3b66abca01735c6c7f5440232faf3 ""
   "scenarios/barns.tex" 1505672210 607 ed54ed0a3b67a782535fbc59a03e1c4a ""
   "scenarios/experience_machine.tex" 1505672210 1578 32f8f818a816dc1ce1eb59bea603167a ""
   "scenarios/frank_and_furt.tex" 1505672210 905 36da2327b545a3277edb659a5cdb1b4d ""
@@ -217,9 +218,9 @@
   "translator-sdaps-dictionary-Polish.dict" 1505048509 1461 db45c61a7daea73271966a1d9d7874d2 ""
   "variables.tex" 1505672210 3552 e893f8e4d17c2c44ede3ea6605ab8907 ""
   (generated)
-  "questionnaire.log"
   "questionnaire.pdf"
-  "questionnaire.sdaps"
-  "questionnaire.aux"
   "questionnaire.out"
+  "questionnaire.sdaps"
   "questionnaire.xwm"
+  "questionnaire.aux"
+  "questionnaire.log"

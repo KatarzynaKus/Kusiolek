@@ -248,6 +248,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xwatermark/xwatermark.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xwatermark/xwatermark.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/catoptions/catoptions.sty
