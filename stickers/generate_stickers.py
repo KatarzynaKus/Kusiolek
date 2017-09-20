@@ -2,6 +2,7 @@ import uuid # do generowania unikatowych numerów, żeby nikt nie mógł wypełn
 import jinja2 # obsługa szablonowania
 import os # wywołuje z pythona latexa
 from jinja2 import Template 
+import pandas as pd
 
 # tutaj definiujemy środowisko jinja2 dla LaTeXa - to jest konfig ściągnięty
 # z internetu, ale działa znakomicie - chodzi o to, żeby elementy szablonu
@@ -45,4 +46,18 @@ with open('labels.tex', 'w') as f: # zapisujemy go w 'labels.tex', który jest w
     f.write(labels)
 
 os.system('pdflatex stickers.tex') # kompilujemy 'stickers.tex' latexem
+
+# zapisujemy kody i tak dalej do pliku excela w celu wprowadzenia ich do limesurveya
+
+stickers_data = pd.DataFrame(
+    {
+        'semestr 1': ['S1{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 2': ['S2{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 3': ['S3{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 4': ['S4{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 5': ['S5{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 6': ['S6{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+     })
+
+stickers_data.to_excel('stickers.xlsx')
 print('Plik z ankietami wygenerowany') # puff
