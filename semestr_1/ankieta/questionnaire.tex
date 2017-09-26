@@ -8,20 +8,22 @@
 \usepackage{multicol}
 \usepackage{polski}
 \usepackage{pgfkeys}
-\usepackage[printwatermark]{xwatermark}
+\usepackage{catchfile}
 
-% Logo
+\newcommand{\getenv}[2][]{%
+  \CatchFileEdef{\temp}{"|kpsewhich --var-value #2"}{\endlinechar=-1}%
+  \if\relax\detokenize{#1}\relax\temp\else\let#1\temp\fi}
 
-\newwatermark[firstpage,picfile = {kognilablogo},picfileext=png, picscale=2.5,
-picypos = 164, picxpos = -50]{}
+\getenv[\PROJECTDIR]{PROJECTDIR}
+
+\if\PROJECTDIR\empty\newcommand{\dir}{./}\else\newcommand{\dir}{\PROJECTDIR}\fi
 
 % To jest plik ze zmiennymi. Używamy ich zamiast tekstu.
-\input{variables}
+\input{\dir variables}
 
 % Tutaj redefiniuję komendę do wywoływania zmiennych, aby łatwiej było ją wpisywać.
-
-
 % Od tej pory aby użyć wartości zmiennej można posługiwać się poleceniem \gv{nazwa_zmiennej}
+
 \newcommand{\gv}{\pgfkeysvalueof}
 
 % Autorzy ankiety
@@ -41,7 +43,6 @@ picypos = 164, picxpos = -50]{}
     \addinfo{Date}{10.03.2013}
 
 		\section{\gv{demography_section}}% Tak dodajemy nagłówki sekcji
-
 		\begin{multicols}{2}
 
 	  \textbox*{3cm}{\gv{sticker}}
