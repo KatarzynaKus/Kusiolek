@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.14)  26 SEP 2017 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.14)  26 SEP 2017 18:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1627,13 +1627,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
 Here is how much of TeX's memory you used:
  30265 strings out of 494910
  580005 string characters out of 6180156
- 742717 words of memory out of 5000000
+ 741719 words of memory out of 5000000
  33038 multiletter control sequences out of 15000+600000
  17111 words of font info for 51 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  69i,16n,73p,10391b,1267s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbl1095.600pk> </home/bartosz/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk>
-Output written on questionnaire.pdf (5 pages, 100562 bytes).
+Output written on questionnaire.pdf (5 pages, 100569 bytes).
 PDF statistics:
  491 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams
