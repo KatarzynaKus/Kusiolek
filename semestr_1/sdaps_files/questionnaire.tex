@@ -1,0 +1,248 @@
+\documentclass[
+  polish,
+  pagemark,
+	print_questionnaire_id,
+	oneside,
+  stamp]{sdapsclassic}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{polski}
+\usepackage{pgfkeys}
+\usepackage{catchfile}
+\usepackage{hyphenat}
+
+\newcommand{\getenv}[2][]{%
+  \CatchFileEdef{\temp}{"|kpsewhich --var-value #2"}{\endlinechar=-1}%
+  \if\relax\detokenize{#1}\relax\temp\else\let#1\temp\fi}
+
+\getenv[\PROJECTDIR]{PROJECTDIR}
+
+\if\PROJECTDIR\empty\newcommand{\dir}{./}\else\newcommand{\dir}{\PROJECTDIR}\fi
+
+% To jest plik ze zmiennymi. Używamy ich zamiast tekstu.
+\input{\dir variables}
+
+% Tutaj redefiniuję komendę do wywoływania zmiennych, aby łatwiej było ją wpisywać.
+% Od tej pory aby użyć wartości zmiennej można posługiwać się poleceniem \gv{nazwa_zmiennej}
+
+\newcommand{\gv}{\pgfkeysvalueof}
+
+% Autorzy ankiety
+\author{\gv{survey_authors}}
+% Tytuł ankiety
+\title{\gv{survey_title}}
+\setlength{\columnseprule}{0.5pt}
+
+\begin{document}
+% Cała ankieta musi znaleźć się w środowisku `questionnaire`
+  \begin{questionnaire}
+% To jest komenda dodająca informacje o ankiecie na górze pierwszej strony.
+    \begin{info}
+						\gv{survey_info}
+    \end{info}
+
+    \addinfo{Date}{10.03.2013}
+
+		\section{\gv{demography_section}}% Tak dodajemy nagłówki sekcji
+		\begin{multicols}{2}
+
+	  \textbox*{4cm}{\gv{sticker}}
+
+		\textbox*{1.2cm}{\gv{main_field_q}}% Tak dodajemy pytania otwarte
+
+		\textbox*{1.2cm}{\gv{birth_year_q}}
+
+
+		\begin{choicequestion}[cols=2]{\gv{gender_q}}% Tak dodajemy pytania zamknięte
+						\choiceitem{\gv{female}}
+						\choiceitem{\gv{male}}
+						\choiceitem{\gv{other}}
+						\choiceitem{\gv{refuse}}
+    \end{choicequestion}
+
+
+		\begin{choicequestion}[cols=2]{\gv{philosophy_hs_q}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+    \end{choicequestion}
+
+		\begin{choicequestion}[cols=2]{\gv{olympiad_q}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+    \end{choicequestion}
+
+		\textbox*{1.2cm}{\gv{philosophy_start_year_q}}
+
+
+		\begin{choicequestion}[cols=2]{\gv{other_fields_q}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+
+
+			\choiceitemtext{1.2cm}{2}{a.}
+			\choiceitemtext{1.2cm}{2}{b.}
+			\choiceitemtext{1.2cm}{2}{c.}
+    \end{choicequestion}
+
+		\begin{choicequestion}[cols=2]{\gv{philosophy_fields_q}}
+						\choiceitem{\gv{epistemology}}
+						\choiceitem{\gv{logic}}
+						\choiceitem{\gv{ethics}}
+						\choiceitem{\gv{polit_philosophy}}
+						\choiceitem{\gv{soc_philosophy}}
+						\choiceitem{\gv{hist_philosophy}}
+						\choiceitem{\gv{cul_philosophy}}
+						\choiceitem{\gv{aesthethics}}
+						\choiceitem{\gv{rel_philosophy}}
+						\choiceitem{\gv{sci_philosophy}}
+						\choiceitem{\gv{anal_philosophy}}
+						\choiceitem{\gv{ontology}}
+						\choiceitem{\gv{cont_philosophy}}
+						\choiceitemtext{1.2cm}{2}{Inne:}
+
+
+   	\end{choicequestion}
+
+    \end{multicols}
+
+		\newpage
+
+	%	\begin{multicols*}{2} %Można zobaczyć jak wygląda w dwóch kolumnach
+
+		\section{\gv{gettier_section}}
+
+    \gv{gettier_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{gettier_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+		\section{\gv{barns_section}}
+
+    \gv{barns_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{barns_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}			
+		
+		\section{\gv{john-thermometer_section}}
+
+    \gv{john-thermometer_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{john-thermometer_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}		
+		
+	\newpage
+	
+		\section{\gv{teleportation_section}}
+
+		\gv{teleportation_text}
+
+		\begin{choicequestion}[cols=2]{\gv{teleportation_q1}}
+						\choiceitem{\gv{teleportation_q1a1}}				
+						\choiceitem{\gv{teleportation_q1a2}}
+						\choiceitem{\gv{teleportation_q1a3}}
+						\choiceitem{\gv{teleportation_q1a4}}
+										
+    \end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\section{\gv{name-day_section}}
+
+    \gv{name-day_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{name-day_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\section{\gv{planet_b297a_section}}
+
+    \gv{planet_b297a_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{planet_b297a_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\section{\gv{incompleteness_theorem_section}}
+
+		\gv{incompleteness_theorem_text}
+
+		\begin{choicequestion}[cols=2]{\gv{incompleteness_theorem_q1}}
+						\choiceitem{\gv{incompleteness_theorem_q1a1}}					
+						\choiceitem{\gv{incompleteness_theorem_q1a2}}					
+    \end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+	
+		\section{\gv{frank_and_furt_section}}
+
+    \gv{frank_and_furt_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{frank_and_furt_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{frank_and_furt_q2}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{frank_and_furt_q3}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+		
+		\newpage
+		
+		\section{\gv{violinist_section}}
+
+    \gv{violinist_text}
+
+		\begin{choicequestion}[cols=2]{\gv{yesno_question} \\ \textbf{\gv{violinist_q1}}}
+      \choiceitem{\gv{yes_a}}
+      \choiceitem{\gv{no_a}}
+		\end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+		
+		\section{\gv{experience_machine_section}}
+
+		\gv{experience_machine_text}
+
+		\begin{choicequestion}[cols=2]{\gv{experience_machine_q1}}
+						\choiceitem{\gv{experience_machine_q1a1}}					
+						\choiceitem{\gv{experience_machine_q1a2}}					
+    \end{choicequestion}
+
+		\singlemark{\gv{level_question}}{\gv{left_anchor}}{\gv{right_anchor}}
+
+		% \end{multicols*}
+  \end{questionnaire}
+\end{document}
+

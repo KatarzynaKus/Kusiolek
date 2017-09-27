@@ -1,0 +1,274 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup_tex
+------------------------------------------------------------------------------
+Running pdflatex now twice to generate the questionnaire.
+Running pdflatex now twice to generate the questionnaire.
+\gv {survey_title}
+Date: 10.03.2013
+Author: \gv {survey_authors}
+Questionnaire
+1(Head) \gv {demography_section}
+1.1(Text) \gv {sticker} {1}
+	0(Textbox )  13.0 111.8  90.2  40.0 
+1.2(Text) \gv {main_field_q} {1}
+	0(Textbox )  13.0 160.3  90.2  12.0 
+1.3(Text) \gv {birth_year_q} {1}
+	0(Textbox )  13.0 180.7  90.2  12.0 
+1.4(Choice) \gv {gender_q} {1}
+	0(Checkbox)  15.1 202.9   3.5   3.5 \gv {female}
+	1(Checkbox)  61.1 202.9   3.5   3.5 \gv {male}
+	2(Checkbox)  15.1 210.1   3.5   3.5 \gv {other}
+	3(Checkbox)  61.1 208.0   3.5   3.5 \gv {refuse}
+1.5(Choice) \gv {philosophy_hs_q} {1}
+	0(Checkbox)  15.1 232.7   3.5   3.5 \gv {yes_a}
+	1(Checkbox)  61.1 232.7   3.5   3.5 \gv {no_a}
+1.6(Choice) \gv {olympiad_q} {1}
+	0(Checkbox)  15.1 252.9   3.5   3.5 \gv {yes_a}
+	1(Checkbox)  61.1 252.9   3.5   3.5 \gv {no_a}
+1.7(Text) \gv {philosophy_start_year_q} {1}
+	0(Textbox ) 106.8 111.8  90.2  12.0 
+1.8(Choice) \gv {other_fields_q} {1}
+	0(Checkbox) 108.9 148.6   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 154.8 148.6   3.5   3.5 \gv {no_a}
+	2(Textbox ) 113.1 153.4  81.8  12.0 a.
+	3(Textbox ) 113.3 165.8  81.6  12.0 b.
+	4(Textbox ) 112.9 178.1  82.0  12.0 c.
+1.9(Choice) \gv {philosophy_fields_q} {1}
+	0(Checkbox) 108.9 207.1   3.5   3.5 \gv {epistemology}
+	1(Checkbox) 154.8 207.1   3.5   3.5 \gv {logic}
+	2(Checkbox) 108.9 211.8   3.5   3.5 \gv {ethics}
+	3(Checkbox) 154.8 211.8   3.5   3.5 \gv {polit_philosophy}
+	4(Checkbox) 108.9 216.6   3.5   3.5 \gv {soc_philosophy}
+	5(Checkbox) 154.8 216.6   3.5   3.5 \gv {hist_philosophy}
+	6(Checkbox) 108.9 221.4   3.5   3.5 \gv {cul_philosophy}
+	7(Checkbox) 154.8 221.4   3.5   3.5 \gv {aesthethics}
+	8(Checkbox) 108.9 226.2   3.5   3.5 \gv {rel_philosophy}
+	9(Checkbox) 154.8 226.2   3.5   3.5 \gv {sci_philosophy}
+	10(Checkbox) 108.9 231.0   3.5   3.5 \gv {anal_philosophy}
+	11(Checkbox) 154.8 231.0   3.5   3.5 \gv {ontology}
+	12(Checkbox) 108.9 236.1   3.5   3.5 \gv {cont_philosophy}
+	13(Textbox ) 118.5 249.1  76.4  12.0 Inne:
+2(Head) \gv {gettier_section}
+2.1(Choice) \gv {yesno_question} \\ \textbf {\gv {gettier_q1}} {2}
+	0(Checkbox)  15.1  64.0   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9  64.0   3.5   3.5 \gv {no_a}
+2.2(Range) \gv {level_question} {2}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8  79.8   3.5   3.5 None
+	2(Checkbox)  95.5  79.8   3.5   3.5 None
+	3(Checkbox) 103.3  79.8   3.5   3.5 None
+	4(Checkbox) 111.0  79.8   3.5   3.5 None
+	5(Checkbox) 118.7  79.8   3.5   3.5 None
+3(Head) \gv {barns_section}
+3.1(Choice) \gv {yesno_question} \\ \textbf {\gv {barns_q1}} {2}
+	0(Checkbox)  15.1 131.7   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9 131.7   3.5   3.5 \gv {no_a}
+3.2(Range) \gv {level_question} {2}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 147.5   3.5   3.5 None
+	2(Checkbox)  95.5 147.5   3.5   3.5 None
+	3(Checkbox) 103.3 147.5   3.5   3.5 None
+	4(Checkbox) 111.0 147.5   3.5   3.5 None
+	5(Checkbox) 118.7 147.5   3.5   3.5 None
+4(Head) \gv {john-thermometer_section}
+4.1(Choice) \gv {yesno_question} \\ \textbf {\gv {john-thermometer_q1}} {2}
+	0(Checkbox)  15.1 208.3   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9 208.3   3.5   3.5 \gv {no_a}
+4.2(Range) \gv {level_question} {2}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 224.0   3.5   3.5 None
+	2(Checkbox)  95.5 224.0   3.5   3.5 None
+	3(Checkbox) 103.3 224.0   3.5   3.5 None
+	4(Checkbox) 111.0 224.0   3.5   3.5 None
+	5(Checkbox) 118.7 224.0   3.5   3.5 None
+5(Head) \gv {teleportation_section}
+5.1(Choice) \gv {teleportation_q1} {3}
+	0(Checkbox)  15.1  88.3   3.5   3.5 \gv {teleportation_q1a1}
+	1(Checkbox) 107.9  88.3   3.5   3.5 \gv {teleportation_q1a2}
+	2(Checkbox)  15.1  97.5   3.5   3.5 \gv {teleportation_q1a3}
+	3(Checkbox) 107.9  99.6   3.5   3.5 \gv {teleportation_q1a4}
+5.2(Range) \gv {level_question} {3}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 117.7   3.5   3.5 None
+	2(Checkbox)  95.5 117.7   3.5   3.5 None
+	3(Checkbox) 103.3 117.7   3.5   3.5 None
+	4(Checkbox) 111.0 117.7   3.5   3.5 None
+	5(Checkbox) 118.7 117.7   3.5   3.5 None
+6(Head) \gv {name-day_section}
+6.1(Choice) \gv {yesno_question} \\ \textbf {\gv {name-day_q1}} {3}
+	0(Checkbox)  15.1 179.2   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9 179.2   3.5   3.5 \gv {no_a}
+6.2(Range) \gv {level_question} {3}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 194.9   3.5   3.5 None
+	2(Checkbox)  95.5 194.9   3.5   3.5 None
+	3(Checkbox) 103.3 194.9   3.5   3.5 None
+	4(Checkbox) 111.0 194.9   3.5   3.5 None
+	5(Checkbox) 118.7 194.9   3.5   3.5 None
+7(Head) \gv {planet_b297a_section}
+7.1(Choice) \gv {yesno_question} \\ \textbf {\gv {planet_b297a_q1}} {3}
+	0(Checkbox)  15.1 241.4   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9 241.4   3.5   3.5 \gv {no_a}
+7.2(Range) \gv {level_question} {3}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 257.1   3.5   3.5 None
+	2(Checkbox)  95.5 257.1   3.5   3.5 None
+	3(Checkbox) 103.3 257.1   3.5   3.5 None
+	4(Checkbox) 111.0 257.1   3.5   3.5 None
+	5(Checkbox) 118.7 257.1   3.5   3.5 None
+8(Head) \gv {incompleteness_theorem_section}
+8.1(Choice) \gv {incompleteness_theorem_q1} {4}
+	0(Checkbox)  15.1  88.3   3.5   3.5 \gv {incompleteness_theorem_q1a1}
+	1(Checkbox) 107.9  88.3   3.5   3.5 \gv {incompleteness_theorem_q1a2}
+8.2(Range) \gv {level_question} {4}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 108.5   3.5   3.5 None
+	2(Checkbox)  95.5 108.5   3.5   3.5 None
+	3(Checkbox) 103.3 108.5   3.5   3.5 None
+	4(Checkbox) 111.0 108.5   3.5   3.5 None
+	5(Checkbox) 118.7 108.5   3.5   3.5 None
+9(Head) \gv {frank_and_furt_section}
+9.1(Choice) \gv {yesno_question} \\ \textbf {\gv {frank_and_furt_q1}} {4}
+	0(Checkbox)  15.1 169.3   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9 169.3   3.5   3.5 \gv {no_a}
+9.2(Range) \gv {level_question} {4}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 185.0   3.5   3.5 None
+	2(Checkbox)  95.5 185.0   3.5   3.5 None
+	3(Checkbox) 103.3 185.0   3.5   3.5 None
+	4(Checkbox) 111.0 185.0   3.5   3.5 None
+	5(Checkbox) 118.7 185.0   3.5   3.5 None
+9.3(Choice) \gv {yesno_question} \\ \textbf {\gv {frank_and_furt_q2}} {4}
+	0(Checkbox)  15.1 203.5   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9 203.5   3.5   3.5 \gv {no_a}
+9.4(Range) \gv {level_question} {4}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 219.2   3.5   3.5 None
+	2(Checkbox)  95.5 219.2   3.5   3.5 None
+	3(Checkbox) 103.3 219.2   3.5   3.5 None
+	4(Checkbox) 111.0 219.2   3.5   3.5 None
+	5(Checkbox) 118.7 219.2   3.5   3.5 None
+9.5(Choice) \gv {yesno_question} \\ \textbf {\gv {frank_and_furt_q3}} {4}
+	0(Checkbox)  15.1 237.7   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9 237.7   3.5   3.5 \gv {no_a}
+9.6(Range) \gv {level_question} {4}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 253.4   3.5   3.5 None
+	2(Checkbox)  95.5 253.4   3.5   3.5 None
+	3(Checkbox) 103.3 253.4   3.5   3.5 None
+	4(Checkbox) 111.0 253.4   3.5   3.5 None
+	5(Checkbox) 118.7 253.4   3.5   3.5 None
+10(Head) \gv {violinist_section}
+10.1(Choice) \gv {yesno_question} \\ \textbf {\gv {violinist_q1}} {5}
+	0(Checkbox)  15.1  78.4   3.5   3.5 \gv {yes_a}
+	1(Checkbox) 107.9  78.4   3.5   3.5 \gv {no_a}
+10.2(Range) \gv {level_question} {5}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8  94.1   3.5   3.5 None
+	2(Checkbox)  95.5  94.1   3.5   3.5 None
+	3(Checkbox) 103.3  94.1   3.5   3.5 None
+	4(Checkbox) 111.0  94.1   3.5   3.5 None
+	5(Checkbox) 118.7  94.1   3.5   3.5 None
+11(Head) \gv {experience_machine_section}
+11.1(Choice) \gv {experience_machine_q1} {5}
+	0(Checkbox)  15.1 175.1   3.5   3.5 \gv {experience_machine_q1a1}
+	1(Checkbox) 107.9 175.1   3.5   3.5 \gv {experience_machine_q1a2}
+11.2(Range) \gv {level_question} {5}
+	\gv {left_anchor} (0) - \gv {right_anchor} (4)
+	1(Checkbox)  87.8 190.8   3.5   3.5 None
+	2(Checkbox)  95.5 190.8   3.5   3.5 None
+	3(Checkbox) 103.3 190.8   3.5   3.5 None
+	4(Checkbox) 111.0 190.8   3.5   3.5 None
+	5(Checkbox) 118.7 190.8   3.5   3.5 None
+
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Running pdflatex now twice to generate the stamped questionnaire.
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+Warning: Cannot convert PDF files as poppler is not installed or usable!
+Error: No output filename specified!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/local/lib/python2.7/dist-packages/sdaps/script.py", line 105, in decorated_function
+    result = function(cmdline)
+  File "/usr/local/lib/python2.7/dist-packages/sdaps/cmdline/convert.py", line 59, in convert
+    sys.exit(1)
+SystemExit: 1
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+Warning: Cannot convert PDF files as poppler is not installed or usable!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/local/lib/python2.7/dist-packages/sdaps/script.py", line 105, in decorated_function
+    result = function(cmdline)
+  File "/usr/local/lib/python2.7/dist-packages/sdaps/cmdline/convert.py", line 64, in convert
+    convert_images(cmdline['images'], cmdline['output'], survey.defs.paper_width, survey.defs.paper_height, cmdline['transform'])
+  File "/usr/local/lib/python2.7/dist-packages/sdaps/convert/__init__.py", line 37, in convert_images
+    log.warning(_("Could not apply 3D-transformation to image '%s', page %i!") % (filename, page))
+AttributeError: 'module' object has no attribute 'warning'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+0 sheets
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file output.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Not adding ankieta.tif because it has a wrong page count (needs to be a mulitple of 5).
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+Warning: Cannot convert PDF files as poppler is not installed or usable!
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Processing out.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+5 sheets
+Warning: Page number for page 1.tif, 3 already used by another image.
+Warning: Page number for page 1.tif, 4 already used by another image.
+Warning: Got different IDs on different pages for at least one sheet! Do *NOT* try to use filters with this survey! You have to run a "reorder" step for this to work properly!
+Warning: Page number for page 1.tif, 9 already used by another image.
+Warning: Got a wrong survey ID (1.tif, 5)! It is 3312830997, but should be 2333139386.
+Warning: Could not read questionnaire ID of either 1.tif, 5 or DUMMY, -1!
+Warning: Could not read questionnaire ID of either 1.tif, 6 or DUMMY, -1!
+Warning: Could not read questionnaire ID of either 1.tif, 8 or DUMMY, -1!
+Warning: Page number for page 1.tif, 16 already used by another image.
+4.148697 seconds per sheet
+------------------------------------------------------------------------------
+- SDAPS -- reorder
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+6 sheets
+Warning: Got a wrong survey ID (1.tif, 5)! It is 3312830997, but should be 2333139386.
+Warning: Could not read questionnaire ID of either 1.tif, 5 or DUMMY, -1!
+Warning: Could not read questionnaire ID of either 1.tif, 6 or DUMMY, -1!
+Warning: Could not read questionnaire ID of either 1.tif, 8 or DUMMY, -1!
+Warning: Could not read questionnaire ID of either 1.tif, 9 or DUMMY, -1!
+3.693910 seconds per sheet
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- reset
+------------------------------------------------------------------------------
+Removing stored data...
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Error: The survey does not have any images! Please add images (and run recognize) before using the GUI.

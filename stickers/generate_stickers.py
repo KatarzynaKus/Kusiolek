@@ -26,7 +26,7 @@ latex_jinja_env = jinja2.Environment(
 n_participants = 150
 
 # generujemy tyle losowych stringów, ile jest uczestników
-id_ns = [uuid.uuid4().hex[:4].upper() for i in range(n_participants)]
+id_ns = [uuid.uuid4().hex[:3].upper() for i in range(n_participants)]
 
 # sprawdzamy, żeby były unikatowe
 unique_ids = list(set(id_ns))
@@ -54,16 +54,22 @@ os.system('mv stickers.pdf stickers_phil.pdf')
 
 stickers_data = pd.DataFrame(
     {
-        'semestr 1': ['S1{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 2': ['S2{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 3': ['S3{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 4': ['S4{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 5': ['S5{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 6': ['S6{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 1': ['S1{code}{n}P'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 2': ['S2{code}{n}P'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 3': ['S3{code}{n}P'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 4': ['S4{code}{n}P'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 5': ['S5{code}{n}P'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 6': ['S6{code}{n}P'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
      })
 
 stickers_data.to_excel('stickers_phil.xlsx')
 print('Plik z naklejkami dla filozofów wygenerowany') # puff
+
+# generujemy tyle losowych stringów, ile jest uczestników
+id_ns = [uuid.uuid4().hex[:3].upper() for i in range(n_participants)]
+
+# sprawdzamy, żeby były unikatowe
+unique_ids = list(set(id_ns))
 
 # wczytujemy plik szablonu
 template = latex_jinja_env.get_template('labels_template_c.tex')
@@ -86,12 +92,12 @@ os.system('mv stickers.pdf stickers_contr.pdf')
 
 stickers_data = pd.DataFrame(
     {
-        'semestr 1': ['S1{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 2': ['S2{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 3': ['S3{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 4': ['S4{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 5': ['S5{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
-        'semestr 6': ['S6{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 1': ['S1{code}{n}C'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 2': ['S2{code}{n}C'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 3': ['S3{code}{n}C'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 4': ['S4{code}{n}C'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 5': ['S5{code}{n}C'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 6': ['S6{code}{n}C'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
      })
 
 stickers_data.to_excel('stickers_contr.xlsx')
