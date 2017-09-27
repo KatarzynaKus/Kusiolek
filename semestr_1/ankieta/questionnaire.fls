@@ -252,6 +252,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 INPUT kpsewhich --var-value PROJECTDIR
 INPUT kpsewhich --var-value PROJECTDIR
 INPUT variables.tex

@@ -14,7 +14,7 @@
 
 \ProvidesDictionary{translator-sdaps-dictionary}{English}
 
-\providetranslation{infotext}{Ten kwestionariusz jest czytany automatycznie przez program komputerowy. Prosimy użyć dlugopisu do wypełnienia. W pytaniach otwartych prosimy pisać drukowanymi literami.}
+\providetranslation{infotext}{Ten kwestionariusz będzie zczytywany automatycznie przez program komputerowy. Prosimy użyć dlugopisu do wypełnienia. W pytaniach otwartych prosimy pisać drukowanymi literami.}
 \providetranslation{standard-deviation}{Odchylenie standardowe}
 \providetranslation{info-cross}{Wzór zaznaczenia}
 \providetranslation{info-correct}{Usunięcia zaznaczenia}

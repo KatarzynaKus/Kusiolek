@@ -23,7 +23,7 @@ latex_jinja_env = jinja2.Environment(
 )
 
 # liczba uczestników badania
-n_participants = 100
+n_participants = 150
 
 # generujemy tyle losowych stringów, ile jest uczestników
 id_ns = [uuid.uuid4().hex[:4].upper() for i in range(n_participants)]
@@ -31,8 +31,10 @@ id_ns = [uuid.uuid4().hex[:4].upper() for i in range(n_participants)]
 # sprawdzamy, żeby były unikatowe
 unique_ids = list(set(id_ns))
 
+# FILOZOFOWIE
+
 # wczytujemy plik szablonu
-template = latex_jinja_env.get_template('labels_template.tex')
+template = latex_jinja_env.get_template('labels_template_p.tex')
 
 # generowanie pliku z naklejkami
 labels = []
@@ -46,6 +48,7 @@ with open('labels.tex', 'w') as f: # zapisujemy go w 'labels.tex', który jest w
     f.write(labels)
 
 os.system('pdflatex stickers.tex') # kompilujemy 'stickers.tex' latexem
+os.system('mv stickers.pdf stickers_phil.pdf')
 
 # zapisujemy kody i tak dalej do pliku excela w celu wprowadzenia ich do limesurveya
 
@@ -59,5 +62,37 @@ stickers_data = pd.DataFrame(
         'semestr 6': ['S6{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
      })
 
-stickers_data.to_excel('stickers.xlsx')
+stickers_data.to_excel('stickers_phil.xlsx')
+print('Plik z naklejkami dla filozofów wygenerowany') # puff
+
+# wczytujemy plik szablonu
+template = latex_jinja_env.get_template('labels_template_c.tex')
+
+# generowanie pliku z naklejkami
+labels = []
+for i, j in enumerate(unique_ids):
+    labels.append(template.render(UID=j, # funkcja render wstawia w miejsce zmiennych w szablonie
+                                  ID=i)) # odpowiednie dane, które wygenerowaliśmy pythonem
+
+labels = '\n\n'.join(labels) # tworzymy z tego wszystkiego jeden plik
+
+with open('labels.tex', 'w') as f: # zapisujemy go w 'labels.tex', który jest wczytywany przez 'stickers.tex'
+    f.write(labels)
+
+os.system('pdflatex stickers.tex') # kompilujemy 'stickers.tex' latexem
+os.system('mv stickers.pdf stickers_contr.pdf')
+
+# zapisujemy kody i tak dalej do pliku excela w celu wprowadzenia ich do limesurveya
+
+stickers_data = pd.DataFrame(
+    {
+        'semestr 1': ['S1{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 2': ['S2{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 3': ['S3{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 4': ['S4{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 5': ['S5{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+        'semestr 6': ['S6{code}{n}'.format(code = c, n = n) for n,c in enumerate(unique_ids)],
+     })
+
+stickers_data.to_excel('stickers_contr.xlsx')
 print('Plik z ankietami wygenerowany') # puff
