@@ -24,6 +24,14 @@ W katalogu `agreement` znajduje się formularz ze zgodą uczestników badania. S
 pdflatex agreement.tex
 ```
 
+## Informacja dla uczestników badania
+
+W katalogu `information` znajduje się informacja dla uczestników badania oraz instrukcja. Dokument kompilujemy za pomocą:
+
+```
+pdflatex information.tex
+```
+
 ## Naklejki
 
 W katalogu `stickers` znajduje się skrypt generujący naklejki. Uruchamia się go poleceniem:
@@ -32,7 +40,7 @@ W katalogu `stickers` znajduje się skrypt generujący naklejki. Uruchamia się 
 python3 generate_stickers.py
 ```
 
-W efekcie tworzy plik z naklejkami `stickers.pdf`. W pliku `labels_template.tex` znajduje się szablon jednej kolumny papieru naklejkowego. Skrypt generuje tyle kolumn, ile jest uczestników, każda z unikatowym kodem badanego. 
+W efekcie tworzy pliki z naklejkami `stickers_phil.pdf` (filozofowie) oraz `stickers_contr.pdf` (grupa kontrolna). W plikach `labels_template_p.tex` oraz `labels_template_c.tex` znajdują się szablony jednej kolumny papieru naklejkowego (dla grupy filozofów i kontrolnej). Skrypt generuje tyle kolumn, ile jest uczestników, każda z unikatowym kodem badanego. Oprócz tego generuje pliki `xlsx` z kodami. **Uwaga** W momencie, gdy zaczniemy uzupełniać pliki danymi uczestników należy zwrócić uwagę, żeby nie wrzucać ich na publicznego gita. 
 
 ## Obróbka danych
 
